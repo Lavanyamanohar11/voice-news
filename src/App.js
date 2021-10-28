@@ -3,12 +3,12 @@ import { Typography } from '@material-ui/core';
 import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
-import logo from './images/logo.png';
+import alanLogo from './images/alanLogo.png';
 import { NewsCards, Modal } from './components';
 import useStyles from './styles';
 
 const App = () => {
-  const [activeArticle, setActiveArticle] = useState(0);
+  const [activeArticle, setActiveArticle] = useState(-1);
   const [newsArticles, setNewsArticles] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -51,7 +51,7 @@ const App = () => {
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
           </div>
         ) : null}
-        <img src="https://alan.app/voice/images/previews/preview.jpg" className={classes.alanLogo} alt="logo" />
+        <img src={alanLogo} className={classes.alanLogo} alt="logo" />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
@@ -59,7 +59,7 @@ const App = () => {
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
             Created with ❤️ by
-            <a className={classes.link} href="#"> Lavanya &copy; 2021</a> 
+            <a className={classes.link} href="https://github.com/Lavanyamanohar11" target="_blank"> Lavanya &copy; 2021</a> 
           </Typography>
         </div>
       ) : null}
