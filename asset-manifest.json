@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/voice-news/static/css/main.1461b181.chunk.css",
+    "main.js": "/voice-news/static/js/main.7fb856b3.chunk.js",
+    "main.js.map": "/voice-news/static/js/main.7fb856b3.chunk.js.map",
+    "runtime-main.js": "/voice-news/static/js/runtime-main.f74dc81e.js",
+    "runtime-main.js.map": "/voice-news/static/js/runtime-main.f74dc81e.js.map",
+    "static/js/2.c0fef7a6.chunk.js": "/voice-news/static/js/2.c0fef7a6.chunk.js",
+    "static/js/2.c0fef7a6.chunk.js.map": "/voice-news/static/js/2.c0fef7a6.chunk.js.map",
+    "index.html": "/voice-news/index.html",
+    "precache-manifest.6203523af717ab21152bfeb439a40769.js": "/voice-news/precache-manifest.6203523af717ab21152bfeb439a40769.js",
+    "service-worker.js": "/voice-news/service-worker.js",
+    "static/css/main.1461b181.chunk.css.map": "/voice-news/static/css/main.1461b181.chunk.css.map",
+    "static/js/2.c0fef7a6.chunk.js.LICENSE.txt": "/voice-news/static/js/2.c0fef7a6.chunk.js.LICENSE.txt",
+    "static/media/alanLogo.png": "/voice-news/static/media/alanLogo.561461ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f74dc81e.js",
+    "static/js/2.c0fef7a6.chunk.js",
+    "static/css/main.1461b181.chunk.css",
+    "static/js/main.7fb856b3.chunk.js"
+  ]
+}
